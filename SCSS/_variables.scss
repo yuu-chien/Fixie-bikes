@@ -1,0 +1,40 @@
+$basic_unit: 16px;
+
+$color-primary: #000000DE;
+$color-secondary: #00000099;
+$color-tertiary: #F1F5F6;
+
+
+h2 {
+    font-size: $basic_unit*6;
+}
+
+.fz-sm {
+    font-size: $basic_unit*1.5;
+}
+.fz-m {
+    font-size: $basic_unit*3;
+}
+.fz-lg {
+    font-size: $basic_unit*4.5;
+}
+.mr-1 {
+    margin-right: $basic_unit;
+}
+.mr-sm {
+    margin-right: $basic_unit*1.875;
+}
+.mr-m {
+    margin-right: $basic_unit*3;
+}
+
+.mb-1 {
+    margin-bottom: $basic_unit;
+}
+.mb-sm {
+    margin-bottom: $basic_unit*1.5;
+}
+.mb-m {
+    margin-bottom: $basic_unit*3;
+}
+
