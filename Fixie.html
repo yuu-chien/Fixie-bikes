@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital@1&display=swap" rel="stylesheet">
-
+    <!-- material icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./CSS/Fixie.all.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <title>Fixie</title>
 </head>
 <body>
     <!-- nav -->
-    <nav class="navbar d-flex jc-space-between ai-center">
+    <nav class="navbar d-flex jc-space-between ai-center" data-aos="fade-down" data-aos-duration="300">
         <div class="logo">
             <h1 class="secondary-font fz-m">Fixie</h1>
         </div>
@@ -28,14 +30,14 @@
     <header class="header d-flex jc-center">
         <div class="w-50p d-flex jc-flex-end ai-center">
             <div class="head-tit-wrap mr-1">
-                <h2 class="secondary-font primary-color mb-m">Single Speed, Single Life.</h2>
-                <p class="fz-sm secondary-color mb-m">More recently the “fixie” has become a popular alternative among mainly urban cyclists, offering the advantage of simplicity compared with the standard multi-geared bicycle.</p>
-                <input type="submit" value="Shop Now" class="shop-btn fz-sm">
+                <h2 class="secondary-font primary-color mb-m animate__animated animate__fadeInLeft">Single Speed, Single Life.</h2>
+                <p class="fz-sm secondary-color mb-m animate__animated animate__fadeInLeft">More recently the “fixie” has become a popular alternative among mainly urban cyclists, offering the advantage of simplicity compared with the standard multi-geared bicycle.</p>
+                <input type="submit" value="Shop Now" class="shop-btn fz-sm animate__animated animate__fadeInLeft">
             </div>
         </div>
         <div class="w-50p">
             <div class="header-i-t">
-                <img src="https://images.unsplash.com/photo-1570882278095-3d4a187d9aab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1570882278095-3d4a187d9aab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80" alt="" class="animate__animated animate__fadeInRight">
             </div>
         </div>
     </header>
@@ -55,13 +57,13 @@
     <section>
         <ul>
             <li class="feature-item d-flex">
-                <div class="product-i-t w-50p">
+                <div class="product-i-t w-50p" data-aos="fade-left" data-aos-duration="800">
                     <img src="https://images.unsplash.com/photo-1496147539180-13929f8aa03a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                     <div class="more-btn">
                         <p>Read More</p>
                     </div>
                 </div>
-                <div class="w-50p d-flex jc-center ai-center">
+                <div class="w-50p d-flex jc-center ai-center feature-bg">
                     <div class="more-btn-icon">
                         <span class="material-icons">arrow_forward</span>
                     </div>
@@ -70,26 +72,26 @@
                             <p class="secondary-color">A fixed gear drivetrain is more mechanically efficient than any other bicycle drivetrain, with the most direct power transfer from rider to the wheels. Thus, it requires less energy in any given gear to move than a geared bike in the same gear.</p>
                         </div>
                         <div>
-                            <h3 class="ta-right secondary-font fz-lg primary-color">One Gear,<br>Many Variations</h3>
+                            <h3 class="ta-right secondary-font fz-lg primary-color" data-aos="fade-right"  data-aos-duration="800">One Gear,<br>Many Variations</h3>
                         </div>
                     </div>
                 </div>
             </li>
-        </ul>
+        </ul>        
     </section>
 
     <!-- belief -->
     <section class="belief">
         <div class="container d-flex jc-center ai-center">
             <div class="belief-txt-wrap">
-                <h3 class="ta-center secondary-font fz-m primary-color mb-sm">A collection built for regular commuters</h3>
-                <p class="ta-center secondary-color">Riders unknown to each other commonly greet each other when on bikes. As in many subcultures, this feeling of belonging is a key factor in recruiting and retaining participants.</p>
+                <h3 class="ta-center secondary-font fz-m primary-color mb-sm" data-aos="fade-up">A collection built for regular commuters</h3>
+                <p class="ta-center secondary-color" data-aos="fade-up" data-aos-delay="100">Riders unknown to each other commonly greet each other when on bikes. As in many subcultures, this feeling of belonging is a key factor in recruiting and retaining participants.</p>
             </div>
         </div>
     </section>
 
     <!-- quote -->
-    <section class="quote">
+    <section class="quote" data-aos="fade-down" data-aos-easing="linear">
         <div class="container">
             <div class="quote-txt-wrap">
                 <p class="secondary-font fz-sm primary-color mb-1">“I like to ride. Fixed gear. No brakes. Can’t stop. Don’t want to, either.”</p>
@@ -102,7 +104,7 @@
     <section class="blog">
         <div class="container">
             <ul class="d-flex">
-                <li class="flex-1 mr-sm">
+                <li class="flex-1 mr-sm" data-aos="fade-up" data-aos-duration="800">
                     <div class="blog-i-t mb-sm">
                         <img src="https://images.unsplash.com/photo-1511877150299-3622fc88aee3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                     </div>
@@ -110,7 +112,7 @@
                     <p class="secondary-color mb-1">2020.04.27</p>
                     <p class="secondary-color">A rider from Stockholm interviewed for an article about the phenomenon notes that riding a bike imparts a feeling of freedom to the rider…</p>
                 </li>
-                <li class="flex-1 mr-sm">
+                <li class="flex-1 mr-sm" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                     <div class="blog-i-t mb-sm">
                         <img src="https://images.unsplash.com/photo-1568902406897-d1eaf73bcd03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                     </div>
@@ -118,7 +120,7 @@
                     <p class="secondary-color mb-1">2020.03.11</p>
                     <p class="secondary-color">There are also several bicycle clubs throughout Sweden with a fixed-gear niche. Komet Club Rouler is a club based in Gothenburg, annually arranging Svart Kat…</p>
                 </li>
-                <li class="flex-1">
+                <li class="flex-1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     <div class="blog-i-t mb-sm">
                         <img src="https://images.unsplash.com/photo-1548774432-8d118269f9ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80" alt="">
                     </div>
@@ -145,5 +147,30 @@
         </div>
     </footer>
 
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 125, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+</script>
 </body>
 </html>
